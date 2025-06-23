@@ -22,7 +22,7 @@ public class GuessTheCube : MonoBehaviour
         for (int i = 0; i < _buttons.Length; i++)
         {
             _buttons[i].GetComponent<Button>().interactable = false;
-            
+
             if (_ans != i + 1)
                 _rbs[i].useGravity = true;
         }
